@@ -3,4 +3,5 @@ resource "aws_vpc" "main" {
   
   tags = {
     Name = "jenkins_demo"
+  }
 }
